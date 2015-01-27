@@ -11,7 +11,7 @@ Meteor.startup(function () {
     consumerKey: 'long_consumer_key',
     secret: 'a_really_big_secret',
     //loginStyle: 'popup'
-    loginStyle: 'redirect'
+    loginStyle: 'redirect' //  easier when using webdriver as popup are an annoyance to deal with
   });
   TwitterStub.init();
 });
@@ -41,7 +41,6 @@ _.extend(TwitterStub, {
   init: function () {
 
     HttpInterceptor.registerInterceptor('https://api.twitter.com', Meteor.absoluteUrl('api.twitter.com'));
-
 
     var _state;
     var fakeServiceUrls = {
