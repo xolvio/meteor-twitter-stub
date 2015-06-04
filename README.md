@@ -4,6 +4,14 @@ Twitter Stub
 This package was developed for [Respond.ly](Respond.ly) by [Xolv.io](Xolv.io). Special thanks to the
 kind Respond.ly team for allowing us to release what they sponsored to the Open Source community.
 
+#Get the Book
+To learn more about testing with Meteor, consider purchasing our book [The Meteor Testing Manual](http://www.meteortesting.com/?utm_source=twitter-stub&utm_medium=banner&utm_campaign=twitter-stub).
+
+[![](http://www.meteortesting.com/img/tmtm.gif)](http://www.meteortesting.com/?utm_source=twitter-stub&utm_medium=banner&utm_campaign=twitter-stub)
+
+Your support helps us continue our work on Velocity and related frameworks.
+
+
 ##What is it?
 A stub for use in testing Meteor apps. Stubs the oauth calls and allows you to fake stub more.
 
